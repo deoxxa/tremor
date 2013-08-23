@@ -1,6 +1,6 @@
 {
   "name": "tremor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Follow leg-format log files and spit out data",
   "main": "tremor.js",
   "dependencies": {
