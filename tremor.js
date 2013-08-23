@@ -2,7 +2,7 @@ var _ = require("underscore"),
     Bintail = require("bintail"),
     fs = require("fs"),
     glob = require("glob"),
-    JSuck = require("jsuck"),
+    JLick = require("jlick"),
     path = require("path"),
     stream = require("stream");
 
@@ -48,7 +48,7 @@ Tremor.prototype._follow = function _follow(file, offset) {
       offset = stat.size;
     }
 
-    Bintail.createReadStream(file, {start: offset}).pipe(new JSuck()).on("data", function onEntry(entry) {
+    Bintail.createReadStream(file, {start: offset}).pipe(new JLick()).on("data", function onEntry(entry) {
       this.push({
         from: name,
         time: entry[0],

@@ -6,8 +6,8 @@
   "dependencies": {
     "bintail": "~0.0.1",
     "glob": "~3.2.6",
-    "jsuck": "~0.0.4",
-    "underscore": "~1.5.1"
+    "underscore": "~1.5.1",
+    "jlick": "0.0.4"
   },
   "repository": {
     "type": "git",
